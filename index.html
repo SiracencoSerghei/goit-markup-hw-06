@@ -53,11 +53,11 @@
         </li>
         <li class="item">
           <a href="tel:+380961111111" class="link header-tel">
-           <div class="header-smartphone">
+            <div class="header-smartphone">
               <svg class="icon-header">
                 <use href="./img/symbol-defs.svg#icon-smartphone"></use>
               </svg>
-           </div>
+            </div>
             +38 096 111 11 11
           </a>
         </li>
@@ -69,23 +69,64 @@
     <!-- BANNER -->
     <section class="hero">
       <div class="container">
-          <h1 class="banner-title">
-            Ефективні рішення для <br />
-            вашого бізнесу
-          </h1>
-          <button type="button" class="banner-button"
-          data-modal-open>Замовити послугу</button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <div class="action">
-                <button type="button" data-modal-close>
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-close"></use>
-                  </svg>
-                </button>
-              </div>
+        <h1 class="banner-title">
+          Ефективні рішення для <br />
+          вашого бізнесу
+        </h1>
+        <button type="button" class="banner-button" data-modal-open>Замовити послугу</button>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <div class="action-close">
+              <button type="button" data-modal-close>
+                <svg class="icon">
+                  <use href="./img/symbol-defs.svg#icon-close"></use>
+                </svg>
+              </button>
             </div>
+            <form class="forma" name="order_service" action="#" method="#">
+
+              <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+
+              <div class="inserts">
+                <label class="form-field">
+                  <div class="form-label">Ім'я</div>
+                  <input type="text" class="form-input" name="name" placeholder=" " />
+                
+                  <span class="form-icon"></span>
+                </label>
+                <label class="form-field">
+                  <div class="form-label">Телефон</div>
+                  <input type="tel" class="form-input" name="tel" placeholder=" " />
+                
+                  <span class="form-icon"></span>
+                </label>
+                <label class="form-field">
+                  <div class="form-label">Пошта</div>
+                  <input type="email" class="form-input" name="mail" placeholder=" " />
+                
+                  <span class="form-icon"></span>
+                </label>
+                <label class="form-field">
+                  <div class="form-label">Коментар</div>
+                  <textarea class="form-comment" name="comment" rows="3" placeholder="Введіть текст"></textarea>
+                
+                  <span class="form-icon"></span>
+                </label>
+              </div>
+              
+
+              <label class="check">
+                <span class="check__box"></span>
+                <input class="check__input" type="checkbox" name="policy" required />Погоджуюся з розсилкою та
+                приймаю
+                <a class="check__policy-contract" href="#">Умови договору</a>
+               
+              </label>
+
+              <button class="hero-submit" type="submit">Відправити</button>
+            </form>
           </div>
+        </div>
       </div>
     </section>
 
@@ -152,7 +193,7 @@
           <li class="we-do-list">
             <img class="image" src="./img/service-web-development.jpg" alt="Десктопні додатки" width="370"
               height="294" />
-            <p class="service">Десктопні додатки</p>  
+            <p class="service">Десктопні додатки</p>
           </li>
           <li class="we-do-list">
             <img class="image" src="./img/service-Adaptive-layout.jpg" alt="Мобільні додатки" width="370"
@@ -160,7 +201,8 @@
             <p class="service">Мобільні додатки</p>
           </li>
           <li class="we-do-list">
-            <img class="image" src="./img/service-design-solutions.jpg" alt="Дизанерські рішення" width="370" height="294" />
+            <img class="image" src="./img/service-design-solutions.jpg" alt="Дизанерські рішення" width="370"
+              height="294" />
             <p class="service">Дизайнерські рішення</p>
           </li>
         </ul>
@@ -179,34 +221,34 @@
               <h3 class="employee-name">Ігор Дем'яненко</h3>
               <p lang="en" class="position">Product Designer</p>
               <ul class="icon list">
-              <li>
-                <a href="#" class="link icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
+                <li>
+                  <a href="#" class="link icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
             </div>
           </li>
@@ -216,38 +258,38 @@
             <div class="description-image">
               <h3 class="employee-name">Ольга Рєпіна</h3>
               <p lang="en" class="position">Frontend Developer</p>
-            
-            <ul class="icon list">
-              <li>
-                <a href="#" class="link icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
+
+              <ul class="icon list">
+                <li>
+                  <a href="#" class="link icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
-              </div>
+            </div>
 
           </li>
           <li class="list member">
@@ -255,38 +297,38 @@
             <div class="description-image">
               <h3 class="employee-name">Микола Тарасов</h3>
               <p lang="en" class="position">Marketing</p>
-            
-            <ul class="icon list">
-              <li>
-                <a href="#" class="link icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
+
+              <ul class="icon list">
+                <li>
+                  <a href="#" class="link icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
-              </div>
+            </div>
 
           </li>
           <li class="list member">
@@ -294,38 +336,38 @@
             <div class="description-image">
               <h3 class="employee-name">Михайло Єрмаков</h3>
               <p lang="en" class="position">UI Designer</p>
-            
-            <ul class="icon list">
-              <li>
-                <a href="#" class="link icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-socialnet">
-                  <svg class="icon">
-                    <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
+
+              <ul class="icon list">
+                <li>
+                  <a href="#" class="link icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="icon-socialnet">
+                    <svg class="icon">
+                      <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
               </ul>
-              </div>
+            </div>
 
           </li>
         </ul>
@@ -339,44 +381,44 @@
         <ul class="icon list">
           <li>
             <a href="#" class="icon-box">
-                <svg class="icon">
-                  <use href="./img/symbol-defs.svg#icon-logo1"></use>
-                </svg>
+              <svg class="icon">
+                <use href="./img/symbol-defs.svg#icon-logo1"></use>
+              </svg>
             </a>
           </li>
           <li>
             <a href="#" class="icon-box">
-                <svg class="icon">
-                  <use href="./img/symbol-defs.svg#icon-logo2"></use>
-                </svg>
+              <svg class="icon">
+                <use href="./img/symbol-defs.svg#icon-logo2"></use>
+              </svg>
             </a>
           </li>
           <li>
             <a href="#" class="icon-box">
-                <svg class="icon">
-                  <use href="./img/symbol-defs.svg#icon-logo3"></use>
-                </svg>
+              <svg class="icon">
+                <use href="./img/symbol-defs.svg#icon-logo3"></use>
+              </svg>
             </a>
           </li>
           <li>
             <a href="#" class="icon-box">
-                <svg class="icon">
-                  <use href="./img/symbol-defs.svg#icon-logo4"></use>
-                </svg>
+              <svg class="icon">
+                <use href="./img/symbol-defs.svg#icon-logo4"></use>
+              </svg>
             </a>
           </li>
           <li>
             <a href="#" class="icon-box">
-                <svg class="icon">
-                  <use href="./img/symbol-defs.svg#icon-logo5"></use>
-                </svg>
+              <svg class="icon">
+                <use href="./img/symbol-defs.svg#icon-logo5"></use>
+              </svg>
             </a>
           </li>
           <li>
             <a href="#" class="icon-box">
-                <svg class="icon">
-                  <use href="./img/symbol-defs.svg#icon-logo6"></use>
-                </svg>
+              <svg class="icon">
+                <use href="./img/symbol-defs.svg#icon-logo6"></use>
+              </svg>
             </a>
           </li>
         </ul>
@@ -442,6 +484,18 @@
           </ul>
         </section>
       </div>
+      <form class="form-subscription" autocomplete="off">
+        <p>Підпишіться на розсилку</p>
+        <label><input type="email" name="subscription" required/>E-mail</label>
+          
+          <button class="hero-btn form-btn" type="submit">
+            Підписатися
+            <svg class="mailing-svg">
+              <use href="./images/icons.svg#icon-form-send"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
     </div>
   </footer>
   <script src="./js/modal.js"></script>
