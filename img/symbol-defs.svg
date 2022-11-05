@@ -2,16 +2,15 @@
     aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <symbol id="icon-send" viewBox="0 0 31 32">
-            <path fill="#fff" style="fill:var(--color1, #fff)" d="M30.667 0 0 18l9.8 3.787L24.917 7l-11.5 16.187V32l5.496-6.691L25.874 28l4.792-28z" />
+            <path d="M30.667 0 0 18l9.8 3.787L24.917 7l-11.5 16.187V32l5.496-6.691L25.874 28l4.792-28z" />
         </symbol>
         <symbol id="icon-checked" viewBox="0 0 34 32">
-            <path fill="#2196f3" style="fill:var(--color1, #2196f3)" d="M4.267 0h25.6a4.267 4.267 0 0 1 4.267 4.267v23.467a4.267 4.267 0 0 1-4.267 4.267h-25.6A4.267 4.267 0 0 1 0 27.734V4.267A4.267 4.267 0 0 1 4.267 0z" />
-            <path fill="#fff" style="fill:var(--color2, #fff);stroke:var(--color2, #fff)" stroke="#fff" stroke-width=".427" d="m8.442 16.537-.147-.14-2.205 2.088 7.767 7.41 16.318-15.567-2.19-2.089-14.128 13.465-5.416-5.167z" />
+            <path d="m8.442 16.537-.147-.14-2.205 2.088 7.767 7.41 16.318-15.567-2.19-2.089-14.128 13.465-5.416-5.167z" />
         </symbol>
-        <symbol id="icon-email-black-1" viewBox="0 0 32 32" width="18" height="18">
+        <symbol id="icon-email-black" viewBox="0 0 32 32" width="18" height="18">
             <path d="M26.667 5.333H5.334A2.663 2.663 0 0 0 2.681 8l-.013 16c0 1.467 1.2 2.667 2.667 2.667h21.333c1.467 0 2.667-1.2 2.667-2.667V8c0-1.467-1.2-2.667-2.667-2.667zM26.133 11l-9.427 5.893a1.346 1.346 0 0 1-1.413 0L5.866 11a1.132 1.132 0 1 1 1.2-1.92l8.933 5.587 8.933-5.587a1.132 1.132 0 1 1 1.2 1.92z" />
         </symbol>
-        <symbol id="icon-phone-black-1" viewBox="0 0 32 32" width="18" height="18">
+        <symbol id="icon-phone-black" viewBox="0 0 32 32" width="18" height="18">
             <path d="m24.882 19.773-3.268-.373a2.561 2.561 0 0 0-2.11.733L17.137 22.5a19.357 19.357 0 0 1-8.478-8.478l2.38-2.38a2.561 2.561 0 0 0 .733-2.11l-.373-3.242a2.575 2.575 0 0 0-2.56-2.277H6.613c-1.454 0-2.663 1.209-2.573 2.663.682 10.987 9.469 19.761 20.443 20.443 1.454.09 2.663-1.119 2.663-2.573V22.32a2.55 2.55 0 0 0-2.264-2.547z" />
         </symbol>
         <symbol id="icon-person" viewBox="0 0 32 32" width="18" height="18">
